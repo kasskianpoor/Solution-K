@@ -1,2 +1,2 @@
 # portfolio
-Demonstration of coding ability
+Demonstration of programming skills and ability
