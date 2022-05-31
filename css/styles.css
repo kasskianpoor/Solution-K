@@ -604,6 +604,11 @@ progress {
   height: 20rem;
 }
 
+.img-fluid-non-clickable {
+  max-width: 100%;
+  height: auto;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
