@@ -11892,7 +11892,7 @@ header.masthead .masthead-heading {
 #portfolio .portfolio-item .portfolio-link {
     position: relative;
     display: block;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
     display: flex;
