@@ -11881,6 +11881,26 @@ header.masthead .masthead-heading {
   }
 }
 
+@media (min-height: 700px) {
+  header.masthead {
+    padding-bottom: 4.5rem;
+    height: 80vh;
+  }
+}
+
+@media (max-height: 700px) {
+  header.masthead {
+    padding-bottom: 4.5rem;
+    min-height: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mission-btn {
+    justify-content: center;
+  }
+}
+
 @media (min-width: 768px) {
   header.masthead {
     margin-top: 60px;
@@ -11894,10 +11914,10 @@ header.masthead .masthead-heading {
     background-size: cover;
   }
 
-  header.masthead {
-    padding-bottom: 4.5rem;
-    height: 80vh;
+  .mission-btn {
+    justify-content: flex-end;
   }
+
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
     font-style: italic;
