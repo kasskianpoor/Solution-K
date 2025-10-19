@@ -33,9 +33,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#mission">Mission</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
                         <li class="nav-item"><a class="nav-link" href="#review">Reviews</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#socialmedia">Social Media</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -44,11 +44,35 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
-                <div class="masthead-subheading">Welcome To My Website!</div>
-                <div class="masthead-heading text-uppercase">A Passionate And Driven FullStack Developer</div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="#portfolio">Tell Me More</a>
+                <div class="masthead-subheading" style="margin-bottom: 10px;">Hi, I'm Kass 👋</div>
+                <div class="masthead-subtextheading text-uppercase" style="margin-bottom: 5px;">Here to serve.</div>
+                <div class="masthead-subtext" style="margin-bottom: 5rem;">Through software solutions, creativity, and collaboration.</div>
+                <div class="w-100 d-flex justify-content-end" style="margin-top: 20rem;">
+                    <a 
+                    class="btn btn-primary btn-xl text-uppercase " 
+                    href="#mission"
+                    style="background-color: #353434ee;"
+                    >See My Mission for more info</a>
+                </div>
             </div>
         </header>
+        <!-- Mission Statement -->
+        <section class="page-section bg-light" id="mission">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">My Mission</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="text-center">
+                            <p class="lead">
+                                To create as many artifacts as life allows — with others and through collaboration — to make life easier, more fun, and to bring hope and meaning to people’s lives: both those I create with, and those we create for.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- Portfolio Grid -->
         <section class="page-section" id="portfolio">
             <div class="container">
@@ -57,6 +81,24 @@
                     <h3 class="section-subheading text-muted">Demonstration Of Work That Has Been Delivered.</h3>
                 </div>
                 <div class="row">
+                    
+                    <div class="col-lg-4 col-sm-6 mb-3">
+                        <!-- Portfolio item 1: EFI-CGA APPLICATION -->
+                        <div class="portfolio-item shadow p-1 bg-white rounded" style="height: 100%; display: flex; flex-direction: column; justify-content: flex-end;">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModalViralNation" style="flex: 1">
+                                <div style="display: flex; height: 100%; align-items: center; justify-content: center; min-height: 320px;" >
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                    </div>
+                                    <img class="img-fluid" src="https://twocircles.com/app/themes/twocircles/public/images/logo-motif.svg" alt="Two Circles" style="width: 100%; background-color: #000;"/>
+                                </div>
+                            </a>
+                            <div class="portfolio-caption bg-light">
+                                <div class="portfolio-caption-heading">Two Circles</div>
+                                <div class="portfolio-caption-subheading text-muted">As a Software Engineer</div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-lg-4 col-sm-6 mb-3">
                         <!-- Portfolio item 1: EFI-CGA APPLICATION -->
                         <div class="portfolio-item shadow p-1 bg-white rounded" style="height: 100%; display: flex; flex-direction: column; justify-content: flex-end;">
@@ -164,6 +206,7 @@
                 </div>
             </div>
         </section>
+       
         <!-- Reviews -->
         <section class="page-section bg-light" id="review">
             <div class="container">
@@ -262,7 +305,7 @@
             </div>
         </section>
         <!-- Team-->
-        <section class="page-section" id="socialmedia">
+        <section class="page-section" id="contact">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Stay In Touch!</h2>
@@ -273,19 +316,19 @@
                             <a href="https://www.linkedin.com/in/kiarash-k-5a1313138/" target="_blank" rel="noopener noreferrer">
                                 <img class="mx-auto rounded-circle" src="assets/img/team/kass-head-shot.jpg" alt="..." />
                             </a>
-                            <h4>Kiarash Kianpoor (AKA Kass)</h4>
+                            <h4 style="color: white;">Kiarash Kianpoor (AKA Kass)</h4>
                             <p class="text-muted">Software Developer</p>
                             <div title="The Facebook account is under construction" style="display: inline">
-                                <a class="btn btn-dark btn-social mx-2 disabled" href="#!">
+                                <a class="btn btn-secondary btn-social mx-2 disabled" href="#!">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
                             </div>
-                            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/kiarash-k-5a1313138/"
+                            <a class="btn btn-secondary btn-social mx-2" href="https://www.linkedin.com/in/kiarash-k-5a1313138/"
                                                                     target="_blank" rel="noopener noreferrer">
                                 <i class="fab fa-linkedin-in"></i>
                             </a>
                             <div title="The instagram account is under construction" style="display: inline">
-                                <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/kass.knp/">
+                                <a class="btn btn-secondary btn-social mx-2" href="https://www.instagram.com/kass.knp/">
                                     <i class="fab fa-instagram"></i>
                                 </a>
                             </div>
@@ -294,78 +337,11 @@
                 </div>
             </div>
         </section>
-        <!-- Contact-->
-        <section class="page-section" id="contact">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contact Us</h2>
-                    <h3 class="section-subheading" style="color: white; opacity: 80%;">If you have any question, contact us. We love to hear from you.</h3>
-                </div>
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- * * SB Forms Contact Form * *-->
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- This form is pre-integrated with SB Forms.-->
-                <!-- To make this form functional, sign up at-->
-                <!-- https://startbootstrap.com/solution/contact-forms-->
-                <!-- to get an API token!-->
-                <form id="contactForm" method="POST" data-netlify="true">
-                    <div class="row align-items-stretch mb-5">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <!-- Name input-->
-                                <input class="form-control" id="name" type="text" name="name" placeholder="Your Name *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <div class="form-group">
-                                <!-- Email address input-->
-                                <input class="form-control" id="email" type="email" name="email" placeholder="Your Email *" data-sb-validations="required,email" />
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <div class="form-group mb-md-0">
-                                <!-- Phone number input-->
-                                <input class="form-control" id="phone" type="tel" name="number" placeholder="Your Phone *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group form-group-textarea mb-md-0">
-                                <!-- Message input-->
-                                <textarea class="form-control" id="message" name="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Submit success message-->
-                    <!---->
-                    <!-- This is what your users will see when the form-->
-                    <!-- has successfully submitted-->
-                    <div class="d-none" id="submitSuccessMessage">
-                        <div class="text-center text-white mb-3">
-                            <div class="fw-bolder">Form submission successful!</div>
-                            To activate this form, sign up at
-                            <br />
-                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                        </div>
-                    </div>
-                    <!-- Submit error message-->
-                    <!---->
-                    <!-- This is what your users will see when there is-->
-                    <!-- an error submitting the form-->
-                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                    <!-- Submit Button-->
-                    <div class="form-floating mb-3">
-                        <div data-netlify-recaptcha="true"></div>
-                    </div>
-                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase" id="submitButton" type="submit">Send Message</button></div>
-                </form>
-            </div>
-        </section>
         <!-- Footer-->
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-12 text-lg">Copyright &copy; Solution-K 2022</div>
+                    <div class="col-lg-12 text-lg">Copyright &copy; Solution-K 2025-2026</div>
                 </div>
             </div>
         </footer>
