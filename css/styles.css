@@ -11896,6 +11896,7 @@ header.masthead .masthead-heading {
 
   header.masthead {
     padding-bottom: 4.5rem;
+    height: 80vh;
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
