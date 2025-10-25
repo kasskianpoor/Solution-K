@@ -11897,7 +11897,14 @@ header.masthead .masthead-heading {
 
 @media (max-width: 768px) {
   .mission-btn {
-    justify-content: center;
+    visibility: hidden;
+  }
+  header.masthead {
+    padding-bottom: 2.5rem;
+    height: 160px;
+  }
+  header.masthead-subtext {
+    margin-bottom: 1 rem;
   }
 }
 
@@ -11929,6 +11936,9 @@ header.masthead .masthead-heading {
     font-weight: 700;
     line-height: 3.5rem;
     margin-bottom: 4rem;
+  }
+  header.masthead-subtext {
+    margin-bottom: 5 rem;
   }
 }
 #portfolio .portfolio-item {
